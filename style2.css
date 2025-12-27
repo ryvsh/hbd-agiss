@@ -1,0 +1,135 @@
+*,
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section2 img {
+        width: 200px;
+        height: auto;
+        margin-top: 100%;
+        border: 4px solid black;
+        border-radius: 10px;
+    }
+
+    p {
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin-top: 10px;
+        font-size:18px;
+    }
+
+    button {
+        width: 100px;
+        height: 50px;
+        background-color: fuchsia;
+        color: white;
+        border: none;
+        border-radius: 30px;
+        margin-top: 15px;
+        font-size: 14px;
+        font-weight: 600;
+        cursor: pointer;
+        transition: 0.3s ease-in-out;
+    }
+
+    button:hover{
+        transform: scale(0.9);
+        background-color: pink;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+     body {
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section2 img {
+        width: 200px;
+        height: auto;
+        margin-top: 100%;
+        border: 4px solid black;
+        border-radius: 10px;
+    }
+
+    p {
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin-top: 10px;
+        font-size:18px;
+    }
+
+    button {
+        width: 100px;
+        height: 50px;
+        background-color: fuchsia;
+        color: white;
+        border: none;
+        border-radius: 30px;
+        margin-top: 15px;
+        font-size: 14px;
+        font-weight: 600;
+        cursor: pointer;
+        transition: 0.3s ease-in-out;
+    }
+
+    button:hover{
+        transform: scale(0.9);
+        background-color: pink;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1430px) {
+        body {
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section2 img {
+        width: 200px;
+        height: auto;
+        margin-top: 100%;
+        border: 4px solid black;
+        border-radius: 10px;
+    }
+
+    p {
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin-top: 10px;
+        font-size:18px;
+    }
+
+    button {
+        width: 100px;
+        height: 50px;
+        background-color: fuchsia;
+        color: white;
+        border: none;
+        border-radius: 30px;
+        margin-top: 15px;
+        font-size: 14px;
+        font-weight: 600;
+        cursor: pointer;
+        transition: 0.3s ease-in-out;
+    }
+
+    button:hover{
+        transform: scale(0.9);
+        background-color: pink;
+    }
+}

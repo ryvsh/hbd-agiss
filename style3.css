@@ -1,0 +1,241 @@
+*,
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container {
+    width: 100%;
+    height: 100vh;
+    background: url(image.png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.outer {
+    border: 2px solid rgb(0, 0, 0);
+    width: 80%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    background-color: rgb(35, 31, 31);
+}
+
+.inner {
+    border: 2px solid rgb(0, 0, 0);
+    width: 90%;
+    height: 90%;
+    border-radius: 30px;
+    justify-content: center;
+    background-color: rgb(50, 40, 40);
+}
+
+.inner img {
+    margin-top: 30px;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    margin-left: 35px;
+}
+
+.inner p {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 10px;
+    font-size:18px;
+    color: white;
+}
+
+button {
+    width: 100px;
+    height: 40px;
+    margin: 15px;
+    margin-top: 20px;
+    border: none;
+    background-color:brown;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    transition: 0.3s ease-in-out;
+}
+
+button:hover {
+    transform: scale(1.2);
+    background-color: darkorange;
+}
+
+.cake {
+    margin-left: 80px;
+}
+    
+}
+
+@media screen and (min-width: 769px) {
+        body {
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container {
+    width: 100%;
+    height: 100vh;
+    background: url(image.png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.outer {
+    border: 2px solid rgb(0, 0, 0);
+    width: 80%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    background-color: rgb(35, 31, 31);
+}
+
+.inner {
+    border: 2px solid rgb(0, 0, 0);
+    width: 90%;
+    height: 90%;
+    border-radius: 30px;
+    justify-content: center;
+    background-color: rgb(50, 40, 40);
+}
+
+.inner img {
+    margin-top: 30px;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    margin-left: 35px;
+}
+
+.inner p {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 10px;
+    font-size:18px;
+    color: white;
+}
+
+button {
+    width: 100px;
+    height: 40px;
+    margin: 15px;
+    margin-top: 20px;
+    border: none;
+    background-color:brown;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    transition: 0.3s ease-in-out;
+}
+
+button:hover {
+    transform: scale(1.2);
+    background-color: darkorange;
+}
+
+.cake {
+    margin-left: 80px;
+}
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1024px) {
+      body {
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container {
+    width: 100%;
+    height: 100vh;
+    background: url(image.png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.outer {
+    border: 2px solid rgb(0, 0, 0);
+    width: 80%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    background-color: rgb(35, 31, 31);
+}
+
+.inner {
+    border: 2px solid rgb(0, 0, 0);
+    width: 90%;
+    height: 90%;
+    border-radius: 30px;
+    justify-content: center;
+    background-color: rgb(50, 40, 40);
+}
+
+.inner img {
+    margin-top: 30px;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    margin-left: 35px;
+}
+
+.inner p {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 10px;
+    font-size:18px;
+    color: white;
+}
+
+button {
+    width: 100px;
+    height: 40px;
+    margin: 15px;
+    margin-top: 20px;
+    border: none;
+    background-color:brown;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    transition: 0.3s ease-in-out;
+}
+
+button:hover {
+    transform: scale(1.2);
+    background-color: darkorange;
+}
+
+.cake {
+    margin-left: 80px;
+}
+}
